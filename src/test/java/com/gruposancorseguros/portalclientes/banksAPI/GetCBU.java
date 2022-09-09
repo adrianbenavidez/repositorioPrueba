@@ -24,7 +24,7 @@ public class GetCBU {
                 "L3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOjE1LCJleHAiOjE2NjI3NDYzMzN9.xIs2lp5sSCAGzTOKbYO1tEonB7" +
                 "a-eK2-msw3ZIpqjn4";
 
-        String tokenESB = "eyJ1c2VyTmFtZSI6InRlc3RiZW5lZmljaW8xQHlvcG1haWwuY29tIiwiYnVwSWQiOiIxNTY2MzcyNyJ9";
+        String tokenESB = "";
 
         RestAssured
                 .given()
