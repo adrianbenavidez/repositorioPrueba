@@ -71,12 +71,21 @@ public class EjercicioIntegrador {
                 .statusCode(HttpStatus.SC_OK)
                 .body("name",Matchers.containsString("morpheus"));
 
-
-
-
     }
 
 
+    @Test
+    public void deleteUser(){
+
+        RestAssured
+                .given()
+                    .contentType(ContentType.JSON)
+                .when()
+                    .delete("users/2")
+                .then()
+                    .statusCode(HttpStatus.SC_NO_CONTENT);
+
+    }
 
 
 
